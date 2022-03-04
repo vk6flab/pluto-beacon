@@ -4,7 +4,7 @@
 
 This script generates Morse code tones for the text supplied on the command-line
 of a PlutoSDR. Note that this is written for the busybox shell (Almquist shell
-or ash), because that's what's included in the default Pluto firmware.
+or ash), because that's what's included in the default Pluto firmware. This has been tested on [v0.34 of the PlutoSDR firmware](https://github.com/analogdevicesinc/plutosdr-fw/releases/tag/v0.34).
 
 The original idea is based on a python script by [LamaBleu](https://github.com/LamaBleu). The bist_tone
 information came from the PDF of a FOSDEM 2018 presentation by [Robin Getz](https://github.com/rgetz) and
